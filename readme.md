@@ -38,5 +38,7 @@ protected function sendFailedLoginResponse(Request $request)
 write code in LoginController which is given below
 
 use Illuminate\Http\Request;
+
 use Auth;
+
 use App\User;
